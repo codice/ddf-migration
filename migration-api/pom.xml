@@ -20,7 +20,6 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>ddf.catalog.migrate</groupId>
   <artifactId>migration-api</artifactId>
   <name>DDF :: Migrate :: Migration API</name>
   <packaging>bundle</packaging>

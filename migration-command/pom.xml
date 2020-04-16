@@ -20,7 +20,6 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>ddf.catalog.migrate</groupId>
   <artifactId>migration-command</artifactId>
   <name>DDF :: Migrate :: Migration Command</name>
   <packaging>bundle</packaging>
@@ -37,7 +36,7 @@
       <version>${ddf.version}</version>
     </dependency>
     <dependency>
-      <groupId>ddf.catalog.migrate</groupId>
+      <groupId>org.codice.ddf.migration</groupId>
       <artifactId>migration-api</artifactId>
       <version>${project.version}</version>
     </dependency>
