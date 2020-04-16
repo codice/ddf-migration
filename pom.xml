@@ -19,7 +19,7 @@
   <name>DDF :: Migration</name>
   <artifactId>migration</artifactId>
   <groupId>org.codice.ddf.migration</groupId>
-  <version>3.0.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
 
   <organization>
     <name>Codice Foundation</name>
