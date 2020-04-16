@@ -22,7 +22,7 @@
 
   <groupId>ddf.catalog.migrate</groupId>
   <artifactId>migration-command</artifactId>
-  <name>DDF :: Catalog :: Migrate :: Migration Command</name>
+  <name>DDF :: Migrate :: Migration Command</name>
   <packaging>bundle</packaging>
 
   <dependencies>

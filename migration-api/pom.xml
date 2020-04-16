@@ -22,7 +22,7 @@
 
   <groupId>ddf.catalog.migrate</groupId>
   <artifactId>migration-api</artifactId>
-  <name>DDF :: Catalog :: Migrate :: Migration API</name>
+  <name>DDF :: Migrate :: Migration API</name>
   <packaging>bundle</packaging>
 
   <build>
