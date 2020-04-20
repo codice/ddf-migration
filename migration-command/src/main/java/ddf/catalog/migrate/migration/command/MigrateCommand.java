@@ -15,7 +15,6 @@ package ddf.catalog.migrate.migration.command;
 
 import static org.fusesource.jansi.Ansi.ansi;
 
-import com.google.common.annotations.VisibleForTesting;
 import ddf.catalog.migrate.migration.api.DataMigratable;
 import ddf.catalog.migrate.migration.api.ServiceNotFoundException;
 import java.util.Collection;
@@ -24,7 +23,6 @@ import org.apache.karaf.shell.api.action.Command;
 import org.apache.karaf.shell.api.action.Option;
 import org.apache.karaf.shell.api.action.lifecycle.Reference;
 import org.apache.karaf.shell.api.action.lifecycle.Service;
-import org.codice.ddf.commands.catalog.SubjectCommands;
 import org.codice.ddf.log.sanitizer.LogSanitizer;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceReference;
@@ -108,22 +106,18 @@ public class MigrateCommand extends SubjectCommands {
     console.print(ansi().fgBlue().a(message).fgGreen().a(item).newline().reset());
   }
 
-  @VisibleForTesting
   void setAllMigrationTasks(boolean allMigrationTasks) {
     this.allMigrationTasks = allMigrationTasks;
   }
 
-  @VisibleForTesting
   void setListMigrationTasks(boolean listMigrationTasks) {
     this.listMigrationTasks = listMigrationTasks;
   }
 
-  @VisibleForTesting
   void setServiceId(String serviceId) {
     this.serviceId = serviceId;
   }
 
-  @VisibleForTesting
   void setBundleContext(BundleContext bundleContext) {
     this.bundleContext = bundleContext;
   }
